@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Reset your password</title>
+    <link href="forstyle.css" rel="stylesheet">
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+
+    <div class="loader">
+        <img src="image/2.gif" alt="Loading...">
+    </div>
+
+    <h1>Forgot Your Password</h1>
+
+    <div class="box">
+    
+        <form method="POST" id="forgot" action="">
+
+            <label>User ID:</label>
+                <input type="text" name="uid" id="name" placeholder="Phone No. or Email">&nbsp;<font color="red">*</font><br><br>
+            <label>Password:</label>
+                <input type="text" name="pass" id="name" placeholder="Last Entered Password">&nbsp;<br><br>
+                <a href="login.html">
+                <input type="button" value="Generate OTP" id="but"><br>
+                </a>
+
+        </form>
+    
+    <p>Remember your password.<br> It is the only way to access your account on jobtree.com<br>Login to our website and unlock the treasure of great oppourtunities.  </p>
+
+    </div>
+
+    <script type="text/javascript">
+    
+        window.addEventListener("load",function(){
+
+                    const loader=document.querySelector(".loader");
+                    loader.className += " hidden";       
+
+        })
+    
+    </script>
+
+</body>
+
+</html>
